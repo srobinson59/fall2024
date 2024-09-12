@@ -1,0 +1,66 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:100px;
+    color: rgba(0,63,59,50);
+    /*margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;*/
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    line-height: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size:40px;
+    color: rgba(0,63,59,50);
+    /*margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;*/
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color: white;
+    /*margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;*/
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    text-align: right;
+}
+
+h4 {
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-size:35px;
+    color: white;
+    /*margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;*/
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+    line-height: 50px;
+    text-align: right;
+}
+
+body {
+    background-color: #d16024;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+/*img {
+    img-align: left;
+}*/
+
+/* this is how you do a comment in css */
