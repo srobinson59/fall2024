@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(9, 66, 31);
+}
+
+header {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 600px;
+    /*border-bottom: 2px solid blue;*/
+}
+
+.first {
+    background-color: orange;
+    width: 750px;
+    text-align: left;
+    padding: 25px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+
+.second {
+    background-color: pink;
+    width: 750px;
+    text-align: right;
+    padding: 25px;
+    position: relative;
+    left: 300px;
+    top: 60px;
+}
+
+.third{
+    background-color: aquamarine;
+    width: 750px;
+    text-align: left;
+    padding: 25px;
+    position: relative;
+    left: 300px;
+    top: 90px;
+}
