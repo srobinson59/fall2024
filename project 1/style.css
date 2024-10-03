@@ -9,14 +9,51 @@ body {
     width: 100%;
 }
 
+/* header section */
+
 header {
     background-image: url(images/title.png);
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
     z-index: 100;
+    font-family: "Patrick Hand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 45px;
+}
+
+nav ul li {
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    top: 225px;
+    left: 30px;
+}
+
+nav a {
+    background-color: green;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    text-decoration: none;
 }
 
 /*Intro to book section, navy blue*/
@@ -54,7 +91,10 @@ h1 {
     position: relative;
     left: 150px;
     top: -10px;
-    
+    font-family: "Edu AU VIC WA NT Guides", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 h2 {
@@ -63,6 +103,9 @@ h2 {
     position: relative;
     left: 150px;
     top: 15px;
+    font-family: "Patrick Hand", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Character Section, Striped*/
@@ -70,63 +113,162 @@ h2 {
 #characters {
     background-image: url(images/project1backgroung1.png);
     background-size: cover;
-    height: 1000px;
+    height: 900px;
     color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-family: "Patrick Hand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 565px;
+    top: 80px;
+}
+
+h4 {
+    color: white;
+    font-size: 45px;
+    font-family: "Patrick Hand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 560px;
+    top: 80px;
 }
 
 .parent {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2;
+        background-image: url(images/gregIll.webp);
+        height: 300px;
+    }
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 3; 
+        background-image: url(images/rowleyIll.webp);
+        height: 300px;
+    }
+    .div3 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        background-image: url(images/roderickIll.webp);
+        height: 300px;
+    }
+    .div4 { 
+        grid-area: 2 / 1 / 3 / 2; 
+        background-image: url(images/frankIll.webp);
+        height: 300px;
+    }
+    .div5 { 
+        grid-area: 2 / 2 / 3 / 3; 
+        background-image: url(images/SusanIll.webp);
+        height: 300px;
+    }
+    .div6 { 
+        grid-area: 2 / 3 / 3 / 4;
+        background-image: url(images/mannyIll.webp);
+        height: 300px; 
+    }
+
+.parent > div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Patrick Hand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 140px;
+    top: 100px;
+}
+    
+
+/* video section */
+
+#video-section {
+    background-image: url(images/papeer.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    display: block;
+}
+
+iframe {
+    position: relative;
+    left: 25px;
+    top: 90px;
+}
+
+h5 {
+    color: black;
+    font-size: 45px;
+    position: relative;
+    top: -320px;
+    left: 525px;
+    font-family: "Edu AU VIC WA NT Guides", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h6 {
+    color: black;
+    font-size: 30px;
+    position: relative;
+    top: -320px;
+    left: 670px;
+    font-family: "Patrick Hand", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* series section
+
+#characters {
+    height: 900px;
+    color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     }
-    
-    .div1 {
-        grid-area: 1 / 1 / 2 / 2;
-        background-image: url(images/)
+    .div12 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        background-image: url(images/book2.png);
+        height: 300px;
     }
-    .div2 {
+    .div22 { 
         grid-area: 1 / 2 / 2 / 3;
-        background-image: url(images/)
+        background-image: url(images/book3.png);
+        height: 300px;
     }
-    .div3 {
+    .div32 { 
         grid-area: 1 / 3 / 2 / 4;
-        background-image: url(images/)
+        background-image: url(images/book4.png);
+        height: 300px;
     }
-    .div4 {
+    .div42 { 
         grid-area: 1 / 4 / 2 / 5;
-        background-image: url(images/)
-    }
-    .div5 {
-        grid-area: 1 / 5 / 2 / 6;
-        background-image: url(images/)
-    }
-    .div6 {
-        grid-area: 1 / 6 / 2 / 7;
-        background-image: url(images/)
-    }
-    .div7 {
-        grid-area: 2 / 1 / 3 / 2;
-        background-image: url(images/)
-    }
-    .div8 {
-        grid-area: 2 / 2 / 3 / 3;
-        background-image: url(images/)
-    }
-    .div9 {
-        grid-area: 2 / 3 / 3 / 4;
-        background-image: url(images/)
-    }
-    .div10 {
-        grid-area: 2 / 4 / 3 / 5;
-        background-image: url(images/)
-    }
-    .div11 {
-        grid-area: 2 / 5 / 3 / 6;
-        background-image: url(images/)
-    }
-    .div12 {
-        grid-area: 2 / 6 / 3 / 7;
-        background-image: url(images/)
-    }
+        background-image: url(images/book5.png);
+        height: 300px;
+    } */
