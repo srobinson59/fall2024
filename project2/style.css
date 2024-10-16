@@ -22,6 +22,16 @@ header {
     width: 100%;
 }
 
+.lovelink {
+    color: black;
+    text-decoration: none;
+}
+
+.lovelink:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 h1 {
     color: black;
     font-family: "Poppins", sans-serif;
@@ -80,13 +90,18 @@ nav a:hover {
 .introtext {
     position: absolute;
     left: 900px;
-    top: 200px;
+    top: 270px;
     width: 510px;
 }
 
 #intro {
     background-color: hotpink;
     height: 800px;
+}
+
+#intro h4 {
+    font-size: 60px;
+    line-height: 60px;
 }
 
 h4 {
@@ -104,6 +119,11 @@ h5 {
     font-style: normal;
     font-size: 18px;
     line-height: 22px;
+}
+
+.move {
+    position: relative;
+    top: 25px;
 }
 
 /* DESCRIPTION SECTION */
@@ -238,4 +258,18 @@ iframe {
 #evaluate {
     background-image: linear-gradient(rgb(235,198,255),rgb(255, 243, 116));
     height: 600px;
+}
+
+#evaluate h4{
+    text-align: left;
+    position: relative;
+    left: 100px;
+    top: 75px;
+}
+
+#evaluate h5 {
+    width: 510px;
+    position: relative;
+    left: 100px;
+    top: 100px;
 }
