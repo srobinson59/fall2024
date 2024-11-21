@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* TITLE PAGE */
+
+#title {
+    background-image: url(images/pexels-monica-713149.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.titlecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.502);
+}
+
+h1 {
+    color: white;
+    font-size: 46px;
+    font-style: center;
+    line-height: 1;
+}
+
+h2 {
+    color: white;
+    font-size: 72px;
+}
+
+h3 {
+    font-family: "Nanum Gothic Coding", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    padding-right: 200px;
+}
+
+.titlecontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2;
+    width: 50%;
+    background-image: url(images/bing-bong.png);
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 50px;
+}
+.div2 { grid-area: 1 / 2 / 2 / 3; 
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: lowercase;
+    display: block;
+    background-color: rgb(103, 190, 72);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    width: 15%;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgb(57, 177, 153);
+    color: black;
+    text-decoration: underline;
+}
+
+/* PAGE TWO */
+
+#intro {
+    background-color: rgb(153, 127, 103);
+}
+
+#intro .parent { 
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+    }
+
+    #intro .div1 {
+        grid-area: 1 / 1 / 4 / 2;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        line-height: 2;
+        margin-top: 100px;
+    }
+    #intro .div2 {
+        grid-area: 1 / 2 / 2 / 3;
+        background-image: url(images/joy.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 30%;
+        height: 25vh;
+        margin-bottom: 50px;
+    }
+    #intro .div3 {
+        grid-area: 1 / 3 / 2 / 4;
+        background-image: url(images/digust.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 45%;
+        height: 25vh;
+    }
+    #intro .div4 {
+        grid-area: 1 / 4 / 2 / 5;
+        background-image: url(images/anger.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        height: 25vh;
+        margin-left: -25px;
+    }
+    #intro .div5 {
+        grid-area: 2 / 2 / 3 / 3;
+        background-image: url(images/fear.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 32%;
+        height: 25vh;
+        margin-bottom: 50px;
+    }
+    #intro .div6 {
+        grid-area: 2 / 3 / 3 / 4;
+        background-image: url(images/sadness.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 25vh;
+    }
+    #intro .div7 {
+        grid-area: 2 / 4 / 3 / 5;
+        background-image: url(images/embarrassment.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 25vh;
+        margin-left: 50px;
+    }
+    #intro .div8 {
+        grid-area: 3 / 2 / 4 / 3;
+        background-image: url(images/envy.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 75%;
+        height: 25vh;
+        margin-left: -50px;
+    }
+    #intro .div9 {
+        grid-area: 3 / 3 / 4 / 4;
+        background-image: url(images/anxiety.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 25vh;
+    }
+    #intro .div10 {
+        grid-area: 3 / 4 / 4 / 5;
+        background-image: url(images/Ennui.webp);
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 25vh;
+        margin-left: 50px;
+    }
+
+    .caption {
+        text-align: center;
+        position: relative;
+        top: 100%;
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 10px;
+    }
+
+    /* SCENARIO ONE PAGE*/
+
+    #scenario1 {
+        background-image: url(images/scenario1.jpeg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .scenContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        background-color:rgba(0, 0, 0, 0.502);
+    }
+
+    #scenario1 p {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;
+        text-align: center;
+        margin: 50px;
+    }
+
+    #scenario1 .s1 {
+        margin-top: -75px;
+    }
+
+    #scenario1 .btn {
+        position: absolute;
+        left: 42%;
+    }
+
+    /* PAGE FOUR */
+    #page4s, #page6s {
+        background-color: rgb(153, 127, 103);
+    }
+    
+    #page4s .page4char, #page6s .page6char { 
+        display: grid; 
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows: repeat(3, 1fr); 
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-top: 25px;
+        }
+    
+        #page4s .div1, #page6s .div1 {
+            grid-area: 1 / 1 / 4 / 2;
+            background-image: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: "Nanum Gothic Coding", monospace;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16px;
+            line-height: 2;
+            margin-top: 100px;
+        }
+        #page4s .div2, #page6s .div2 {
+            grid-area: 1 / 2 / 2 / 3;
+            background-image: url(images/joy.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 30%;
+            height: 25vh;
+            margin-bottom: 50px;
+        }
+        #page4s .div3, #page6s .div3 {
+            grid-area: 1 / 3 / 2 / 4;
+            background-image: url(images/digust.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 45%;
+            height: 25vh;
+        }
+        #page4s .div4, #page6s .div4 {
+            grid-area: 1 / 4 / 2 / 5;
+            background-image: url(images/anger.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 90%;
+            height: 25vh;
+            margin-left: -25px;
+        }
+        #page4s .div5, #page6s .div5 {
+            grid-area: 2 / 2 / 3 / 3;
+            background-image: url(images/fear.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 32%;
+            height: 25vh;
+            margin-bottom: 50px;
+        }
+        #page4s .div6, #page6s .div6 {
+            grid-area: 2 / 3 / 3 / 4;
+            background-image: url(images/sadness.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 40%;
+            height: 25vh;
+        }
+        #page4s .div7, #page6s .div7 {
+            grid-area: 2 / 4 / 3 / 5;
+            background-image: url(images/embarrassment.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 40%;
+            height: 25vh;
+            margin-left: 50px;
+        }
+        #page4s .div8, #page6s .div8 {
+            grid-area: 3 / 2 / 4 / 3;
+            background-image: url(images/envy.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 75%;
+            height: 25vh;
+            margin-left: -50px;
+        }
+        #page4s .div9, #page6s .div9 {
+            grid-area: 3 / 3 / 4 / 4;
+            background-image: url(images/anxiety.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 40%;
+            height: 25vh;
+        }
+        #page4s .div10, #page6s .div10 {
+            grid-area: 3 / 4 / 4 / 5;
+            background-image: url(images/Ennui.webp);
+            background-repeat: none;
+            background-size: cover;
+            background-position: center;
+            width: 40%;
+            height: 25vh;
+            margin-left: 50px;
+        }
+
+        .s2 {
+            margin-top: 20px;
+            font-size: 22px;
+        }
+    
+    #page4s .div2:hover, #page4s .div3:hover, #page4s .div4:hover, #page4s .div5:hover, #page4s .div6:hover, #page4s .div7:hover, #page4s  .div8:hover, #page4s .div9:hover, #page4s .div10:hover,  #page6s .div2:hover, #page6s .div3:hover, #page6s .div4:hover, #page6s .div5:hover, #page6s .div6:hover, #page6s .div7:hover, #page6s  .div8:hover, #page6s .div9:hover, #page6s .div10:hover {
+            cursor: pointer;
+            text-shadow: 1px 1px yellow;
+            animation-name: charhover;
+            animation-duration: 0.5s;
+            animation-timing-function: linear;
+            animation-delay: none;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            z-index: 10;
+        }
+    
+        @keyframes charhover {
+            0% {
+                position: relative;
+                top: 0
+        
+            }
+            100% {
+                position: relative;
+                top: -20px;
+            }
+        }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* CHARACTER PAGES */
+
+    #joyresponse {
+        background-color: rgb(255, 248, 125);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .words {
+        width: 800px;
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        margin-top: 300px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #joyresponse .btn , #disgustresponse .btn, #angerresponse .btn, #fearresponse .btn, #sadnessresponse .btn, #embarrassmentresponse .btn, #envyresponse .btn, #anxietyresponse .btn, #ennuiresponse .btn{
+        margin: 70px 20px;
+    }
+
+    #disgustresponse {
+        background-color: rgb(199, 255, 125);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #angerresponse {
+        background-color: rgb(255, 142, 125);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fearresponse {
+        background-color: rgb(168, 125, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sadnessresponse {
+        background-color: rgb(125, 190, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #embarrassmentresponse {
+        background-color: rgb(255, 125, 201);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #envyresponse {
+        background-color: rgb(38, 143, 155);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #anxietyresponse {
+        background-color: rgb(236, 156, 86);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #ennuiresponse {
+        background-color: rgb(125, 127, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+     /* SCENARIO TWO PAGE*/
+
+     #scenario2 {
+        background-image: url(images/party.avif);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .scen2Container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        background-color:rgba(0, 0, 0, 0.502);
+    }
+
+    #scenario2 p {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Nanum Gothic Coding", monospace;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;
+        text-align: center;
+        margin: 50px;
+    }
+
+    #scenario2 .s1 {
+        margin-top: -75px;
+    }
+
+    #scenario2 .btn {
+        position: absolute;
+        left: 42%;
+    }
+
+    @media screen and (max-width: 800px) {
+       #scenario1 p, #scenario2 p {
+            font-size: 30px;
+       }
+
+       .words {
+            font-size: 17px;
+            width: 75%;
+            margin-left: 12%;
+       }
+    }
+
+/* END PAGE */
+#end {
+    background-color: rgb(153, 127, 103);
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.end .btn {
+    width: 100px;
+    margin-left: 145px;
+}
+
+.end .text {
+    font-size: 42px;
+}
